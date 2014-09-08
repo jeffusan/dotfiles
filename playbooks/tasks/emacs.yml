@@ -2,5 +2,5 @@
 - name: Install Emacs config
   git: repo=https://github.com/jeffusan/emacs.git dest=~/.emacs.d
 
- - name: Update emacs packages
-   shell: chdir=~/.emacs.d cask install && cask update
+- name: Update emacs packages
+  shell: chdir=~/.emacs.d cask install && cask update
