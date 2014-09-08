@@ -31,6 +31,7 @@
     - vagrant-completion
     - wget
     - wireshark
+    - vcprompt
 
 - name: Install Aspell with homebrew
   homebrew: name=aspell state=latest install_options=all

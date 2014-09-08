@@ -12,8 +12,6 @@ if [ -f ~/bashrc.local ]; then
     . ~/.bashrc.local
 fi
 
-shopt -s globstar # allow for **/*.blah
-shopt -s dirspell # do spelling correction on directory completion-
 shopt -s extglob
 shopt -s histappend
 shopt -s histverify
